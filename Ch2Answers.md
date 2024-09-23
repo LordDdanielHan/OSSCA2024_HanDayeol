@@ -1,21 +1,21 @@
 ##  Q1
 ```lean
-#check -2
-#check 3.14
-#check 'L'
-#check "Lean"
-#check [0,1,2]
-#check 1 + 1 = 2
+#check -2 답 Int
+#check 3.14 답 Float
+#check 'L' 답 Char
+#check "Lean" 답 String
+#check [0,1,2] 답 List Nat 
+#check 1 + 1 = 2 답 Prop
 ```
 
 ## Q2
 ```lean 
-#eval -3/5
-#eval Float.sin 0.0
-#eval Char.toNat 'L'
-#eval String.length "Lean"
-#eval List.tail [0,1,2]
-#eval 1.0 + 1.0 == 2
+#eval -3/5 : -1
+#eval Float.sin 0.0 : 0.000000
+#eval Char.toNat 'L' : 76 
+#eval String.length "Lean" : 4
+#eval List.tail [0,1,2] [1,2]
+#eval 1.0 + 1.0 == 2 true
 ```
 ## Q3
 
