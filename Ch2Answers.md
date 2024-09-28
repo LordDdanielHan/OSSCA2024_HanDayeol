@@ -106,16 +106,16 @@ def q17
 (s : String) : Nat := g f s.toUpper
 ```
 
-## Q18 
-Yes. Because the variables in first function can be renamed to be equal to second function
+## Q18
+Yes. Because the variables in first function can be renamed to be equal to the ones in second function
 
 ## Q19 
 
-Function f and g are alpha-equivalent as it is possible for f to be equal when name of variables are modified accordingly.  
+Function f and g are alpha-equivalent as it is possible for f to be equal to g when the names of its variables are modified accordingly.
 
 ## Q20 
 ```lean
-def lesseroreql (x y : Nat) :=
+def lessoreql (x y : Nat) :=
   if x ≤ y then x
   else y
 ```
